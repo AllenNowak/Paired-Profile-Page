@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+  </head>
+  <body>
+    <header>
+      <nav id="top-nav">
+        <div id="top-left-nav">
+          <p id="logo">Profile</p>
+          <p class="nav-link">Home</p>
+          <p class="nav-link">My Profile</p>
+          <p class="nav-link">Find Connections</p>
+        </div>
+        <button type="button">Sign Out</button>
+      </nav>
+    </header>
+    <main id="main-content">
+      <div id="left-col">
+        <div class="user-card">
+          <div class="top"></div>
+          <div class="bottom">
+            <img class="avatar" alt="generic user img" src="icons/user-circle.png" />
+            <div class="name">Jane Doe</div>
+            <div class="location">
+              <img class="thumb" alt="map marker" src="icons/map-marker.png" />Seattle
+            </div>
+            <div class="blurb">
+              <div class="titles">Developer | Engineer | Problem Solver</div>
+              <div class="description">Master of Shadows and the Internet!</div>
+            </div>
+            <div class="edit">
+              <a href=""><img class="thumb" alt="gear icon" src="icons/gear.png" />edit profile</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="widget-top">
+            <p>Education</p>
+          </div>
+          <div class="widget-body">
+            <div class="edu-item">
+              <h2>Coding Dojo - Full Stack Bootcamp</h2>
+              <p class="date-range">Dec 2019 - Mar 2020</p>
+              <p class="detail">Triple black belt in Python, MERN, and C#</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="right-col">
+        <div>
+          <div class="widget-top">
+            <p><span class="badge">2</span> Connection Requests</p>
+          </div>
+          <div class="widget-body">
+            Todd E
+            Phil K
+          </div>
+        </div>
+        <div class="place-holder2"></div>
+      </div>
+    </main>
+  </body>
+</html>
